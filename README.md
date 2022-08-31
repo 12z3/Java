@@ -1,3 +1,3 @@
 # Java
 
-CompGameStore
+PracticeA
