@@ -1,3 +1,3 @@
 # Java
 
-TourismMagazine
+BarcodeGeneratorString
