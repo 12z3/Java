@@ -4,7 +4,7 @@ import training.Methods;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class SearhBinary extends Methods {
+public class SearchBinary extends Methods {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         timeAndData();
