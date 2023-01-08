@@ -1,3 +1,3 @@
 # Java
 
-NumbersOddEven- > Data Created
+OddOrEvensDigits- > Data Created
