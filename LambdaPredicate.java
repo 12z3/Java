@@ -8,9 +8,15 @@ import java.util.function.Predicate;
 public class LambdaPredicate {
 
     /*
-    Predicate -> Изявление, състояние на нещо си.
+
+    -> https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html
+       https://docs.oracle.com/javase/8/docs/api/java/util/function/class-use/Predicate.html
+       https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+
+    Predicate -> Изявление, състояние на нещо си. Функция, която връща "true" или "false"....
     test() -> метод на Predicate. (Evaluates this predicate on the given argument.)
     "predicate.test(number)" връща резултата от "number -> number % 2 == 0"
+    "number -> number < 0)" връща "true" или "false"
     Където "number" може да е с ПРОИЗВОЛНО име.
     */
 
@@ -20,7 +26,9 @@ public class LambdaPredicate {
         System.out.println(filter(numbers));
         System.out.println(filterA(numbers, number -> number > 0));
         System.out.println(filterA(numbers, number -> number % 2 == 0));
-        System.out.println(filterT(numbers, number -> number < 0));
+        System.out.println(filterT(numbers, number -> {
+            return number < 0;
+        }));
     }
 
     private static List<Integer> filterA(List<Integer> numbers, Predicate<Integer> predicate) {
