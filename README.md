@@ -1,3 +1,3 @@
 # Java
 
-ScolarShip- > Data Created
+SecondDegree- > Data Created
