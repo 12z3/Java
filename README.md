@@ -1,3 +1,3 @@
 # Java
 
-SnookerTickets1- > Data Created
+SomeString- > Data Created
