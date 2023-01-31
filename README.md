@@ -1,3 +1,3 @@
 # Java
 
-StringBuilderAndArrays- > Data Created
+TouristMagazine- > Data Created
