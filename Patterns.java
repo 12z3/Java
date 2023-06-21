@@ -55,7 +55,7 @@ public class Patterns {
         }
     }
                                                                         // row и col -> държат индекси не бройка.
-    private static void rhombus(int n) {                                // при row = 1 до 2*n тогава ще"държат" бройката
+    private static void rhombus(int n) {                                 // при row = 1 до 2*n тогава ще"държат" бройката
         for (int row = 0; row <= (2 * n) - 1; row++) {                  // 1-во принтира " "-те и след това "* "
             int countSpace = row < n ? n - row : row - n;               // броя " " в зависимост от реда -
             for (int space = 0; space < countSpace; space++) {          // броя в зависимост от половината фигура.
